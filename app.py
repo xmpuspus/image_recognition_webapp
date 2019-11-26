@@ -6,12 +6,10 @@ from imageai.Prediction import ImagePrediction
 import os
 
 # Get path
-execution_path = '/Users/xmpuspus/Desktop/Lectures/notebooks/image_recog_app'
-image_path = '/Users/xmpuspus/Desktop/Lectures/notebooks/image_recog_app/images/'
-model_path = '/Users/xmpuspus/Desktop/Lectures/notebooks/image_recog_app/model/'
-model = '/Users/xmpuspus/Desktop/Lectures/notebooks/image_recog_app/model/resnet50_weights_tf_dim_ordering_tf_kernels.h5'
+image_path = 'images/'
+model_path = 'model/'
+model = 'model/resnet50_weights_tf_dim_ordering_tf_kernels.h5'
 
-# os.chdir(execution_path)
 
 # Actual Prediction on image using Resnet
 prediction = ImagePrediction()
